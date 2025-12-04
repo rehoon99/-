@@ -63,11 +63,14 @@
     <div class="card">
       <h2>제보유형</h2>
       <ul>
-        <li><strong>부정·비리 제보</strong> : 횡령, 뇌물, 이익충돌 등</li>
-        <li><strong>업무상 비정상적 행위</strong> : 규정 위반, 권한 남용 등</li>
-        <li><strong>기타 윤리 위반</strong> : 괴롭힘·성희롱 등</li>
+        <li><strong>법령 및 사규 위반 행위</strong>
+        <li><strong>부정·비리 제보</strong> : 횡령, 뇌물, 부정 청탁, 리베이트 등</li>
+        <li><strong>업무상 비정상적 행위</strong> : 회계부정, 허위보고, 내부통제 위반 등</li>
+        <li><strong>직장 내 괴롭힘</strong> : 인권침해, 차별행위, 성희롱 등</li>
+        <li><strong>환경·안전 관련 법규 위반 행위</strong>
+        <li><strong>기타 회사의 윤리강령에 위배되는 행위</strong>
       </ul>
-
+      
       <h2 style="margin-top:16px">제보절차</h2>
       <ol>
         <li>제보자는 아래 <em>제보하기</em> 버튼을 클릭하여 제보창을 연다.</li>
@@ -77,11 +80,8 @@
       </ol>
 
       <div style="margin-top:18px">
-        <button id="openBtn" class="btn">제보하기</button>
-        <button class="btn secondary" onclick="document.getElementById('preview').scrollIntoView({behavior:'smooth'})">레이아웃 미리보기</button>
-      </div>
-
-      <p class="footer-note">※ 본 페이지는 디자인 시안입니다. 실제 운영 시에는 서버 측 이메일 전송 및 로그 저장, CSRF·XSS 등 보안 검토가 필요합니다.</p>
+        <button id="openBtn" class="btn">제보하기
+        
     </div>
 
     <div id="preview" class="card" style="margin-top:20px">
